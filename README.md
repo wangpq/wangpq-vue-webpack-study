@@ -1,6 +1,6 @@
 # wangpq-vue-webpack-study
 
-> 一个练习的项目
+> 一个练习的vue-webpack项目，使用啦vue2.0+
 
 ## Build Setup
 
@@ -18,6 +18,8 @@ npm run build
 npm run build --report
 ```
 
+* * *
+
 ## 项目创建
 
 ### 安装cnpm
@@ -32,20 +34,25 @@ cnpm install webpack -g
 ``` bash
 npm install vue-cli -g
 ```
-### 在硬盘上找一个文件夹放工程用的，在终端中进入该目录
+### 在硬盘上找一个文件夹，在终端中进入该目录
 cd 目录路径
 
 ### 根据模板创建项目
 vue init webpack-simple 工程名字<工程名字不能用中文>
-或者创建 vue1.0 的项目
+
+或者创建
+
 vue init webpack 工程名字<工程名字不能用中文>
 
 会有一些初始化的设置，如下输入:
 
-Target directory exists. Continue? (Y/n)直接回车默认(然后会下载 vue2.0模板，这里可能需要连代理)
+Target directory exists. Continue? (Y/n)直接回车默认(然后会下载 vue2.0模板，这里可能需要连代理)   
+
 Project name (vue-test)直接回车默认
+
 Project description (A Vue.js project) 直接回车默认
-Author 写自己的名字
+    
+Author 写自己的名字    
 
 ### cd 命令进入创建的工程根目录，安装项目依赖
 ``` bash
