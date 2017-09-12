@@ -5,6 +5,7 @@ import App from './App'
 import router from './router'
 import VueResource from 'vue-resource'
 import resetCss from './assets/css/reset.css'
+import $ from 'jquery'
 
 Vue.use(VueResource)
 

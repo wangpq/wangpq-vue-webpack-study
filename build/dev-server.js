@@ -21,6 +21,19 @@ var autoOpenBrowser = !!config.dev.autoOpenBrowser
 var proxyTable = config.dev.proxyTable
 
 var app = express()
+
+/* wangpq 新增接口 start*/
+var appData=require('../mock/goods.json')   /* 引入根目录下goods.json数据文件 */
+var goods=appData.goods   /* goods.json文件文件下的.goods数据赋值给变量goods */
+var apiRoutes=express.Router()   /* 定义express.Router() 对象 */
+apiRoutes.get('/goods',function(req,res){   /* 定义接口并返回数据 */
+    res.json({
+        data : goods
+    })
+})
+app.use('/api',apiRoutes)   /* 定义接口在/api目录下，方便管理 */
+/* wangpq 新增接口 end*/
+
 var compiler = webpack(webpackConfig)
 
 var devMiddleware = require('webpack-dev-middleware')(compiler, {
