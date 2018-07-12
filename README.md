@@ -1,12 +1,12 @@
 # wangpq-vue-webpack-study
 
-> A Vue.js project
+> 一个简单的 Vue.js 示例项目，使用es6语法，并实验了vue-resource和jQuery获取数据
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-cnpm install
+npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
