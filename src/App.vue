@@ -11,9 +11,7 @@ export default {
 </script>
 
 <style>
-/* 简单进行默认样式重置 */
-* {
-  margin: 0;
-  padding: 0
+body{
+  background-color: #f0f0f0;
 }
 </style>

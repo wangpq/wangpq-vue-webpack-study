@@ -14,5 +14,6 @@ export default {
     font-weight:bold;
     padding:8px 0;
     margin-top:20px;
+    text-align: center;
   }
 </style>
