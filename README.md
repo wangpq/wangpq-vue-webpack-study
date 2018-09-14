@@ -1,6 +1,6 @@
 # wangpq-vue-webpack-study
 
-> 一个简单的 Vue.js 示例项目，使用es6语法，并实验了vue-resource和jQuery获取数据
+> 一个简单的 Vue.js 示例项目，使用es6语法，示例vue-resource和jQuery获取数据
 
 ## 搭建环境
 Vue-cli是快速构建Vue单页应用的脚手架，使用前，我们先需要全局安装Vue-cli。
